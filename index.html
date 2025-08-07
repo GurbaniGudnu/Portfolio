@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurbani Gudnu</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 z-50 w-full bg-[#0c0d12] bg-opacity-80 backdrop-blur-md p-4 border-b border-gray-700">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold neon-text-main">{'< Gurbani Gudnu />'}</div>
+            <ul class="hidden md:flex space-x-6" id="main-nav">
+                <li><a href="#home" class="text-lg hover:text-[#a742ff] transition-colors duration-300 nav-link">Home</a></li>
+                <li><a href="#about" class="text-lg hover:text-[#a742ff] transition-colors duration-300 nav-link">About</a></li>
+                <li><a href="#skills" class="text-lg hover:text-[#a742ff] transition-colors duration-300 nav-link">Skills</a></li>
+                <li><a href="#projects" class="text-lg hover:text-[#a742ff] transition-colors duration-300 nav-link">Projects</a></li>
+                <li><a href="#contact" class="text-lg hover:text-[#a742ff] transition-colors duration-300 nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-10 md:py-20">
+        <!-- Home/Hero Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center text-center">
+            <div class="max-w-5xl space-y-8">
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight tracking-wide neon-text-main">
+                    Gurbani Gudnu
+                </h1>
+                <p class="text-xl md:text-3xl text-gray-400 font-medium max-w-2xl mx-auto">
+                    Future Web Developer
+                    <br>Shaping The Web Ahead
+                </p>
+                <a href="#projects" class="inline-flex items-center space-x-3 px-8 py-4 mt-6 text-lg font-bold text-white bg-transparent rounded-full shadow-lg transition-transform duration-500 transform hover:scale-105 bg-neon-border hover:neon-shadow-blue">
+                    <span>Explore My Work</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20">
+            <div class="flex flex-col md:flex-row items-center md:space-x-16 max-w-6xl mx-auto">
+                <div class="w-full md:w-1/3 mb-10 md:mb-0">
+                    <img src="https://placehold.co/400x400/1e1e2d/e0e6f0?text=Gurbani+Gudnu" alt="Gurbani Gudnu" class="w-full h-auto object-cover rounded-3xl neon-shadow-purple transform hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="w-full md:w-2/3 space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold border-l-4 border-[#e758e7] pl-4">About</h2>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        I’m a Web Developer who blends logic with creativity to build meaningful digital experiences. Currently a Third Year BSc IT (Bachelor of Science in Information Technology) student, I’m passionate about crafting clean, scalable, and user-centric web solutions.
+                    </p>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        From front-end finesse to back-end logic, I enjoy turning ideas into interactive, intuitive platforms. I take pride in writing code that’s as elegant behind the scenes as it is on-screen because good tech should feel effortless.
+
+I thrive on problem-solving, continuous learning, and staying aligned with evolving technologies. Whether working solo or collaborating with a team, I bring a mindset focused on clarity, consistency, and impact.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="Resume.jpeg" class="flex items-center space-x-2 text-[#4c4cff] hover:text-white transition-colors duration-300" target="_blank">
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 border-b-4 border-[#e758e7] inline-block px-4">Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/4c4cff?text=HTML5" alt="HTML5" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">HTML5</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/e758e7?text=CSS" alt="CSS" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">CSS</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=JS" alt="JS" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">JavaScript</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/4c4cff?text=Python" alt="Python" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">Python</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=C" alt="C" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">C Language</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/e758e7?text=C++" alt="C++" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">C++</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/4c4cff?text=Java" alt="Java" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">Java</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=MySQL" alt="MySQL" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">MySQL</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=PHP" alt="PHP" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">PHP</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=StarUML" alt="StarUML" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">StarUML</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=MySQL" alt="MySQL" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">MySQL</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=PL/SQL" alt="PL/SQL" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">PL/SQL</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=DS" alt="Ds" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">Data Structure</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=CN" alt="CN" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">Computer Network</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=CG" alt="CG" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">Computer Graphics</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=DBMS" alt="DBMS" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">DBMS</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=R" alt="R" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">R Language</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=Linux" alt="Linux" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">Linux</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=Ms Powerpoint" alt="MSPoint" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">MS Powerpoint</p>
+                </div>
+                <div class="skill-card flex flex-col items-center p-6 bg-[#1a1b26] rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-blue">
+                    <img src="https://placehold.co/48x48/1a1b26/a742ff?text=MS Excel" alt="MSExcel" class="skill-icon w-12 h-12" />
+                    <p class="mt-4 text-lg font-semibold text-gray-200">MS Excel</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 border-b-4 border-[#e758e7] inline-block px-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+                <div class="bg-[#1a1b26] p-8 rounded-xl shadow-lg hover:neon-shadow-purple transition-shadow duration-300 transform hover:-translate-y-2" target="_blank">
+                    <h3 class="text-2xl font-bold mb-2 text-white">EcoBridge</h3>
+                    <p class="text-gray-400 mb-6">EcoBridge is a web app that connects individuals donating reusable waste with nearby NGOs using GIS.
+                                                    Users can upload item photos, and NGOs can accept or reject requests.
+                                                    Successful donations are rewarded through an EcoToken system, promoting sustainable contributions.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">EJS</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">CSS</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">Bootstrap</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">JS</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">Node.js</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">Express.js</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">MongoDB</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="https://ecobridge-q2m1.onrender.com/home" class="flex items-center space-x-2 text-[#4c4cff] hover:text-white transition-colors duration-300" target="_blank">
+                            <span>View</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-[#1a1b26] p-8 rounded-xl shadow-lg hover:neon-shadow-purple transition-shadow duration-300 transform hover:-translate-y-2">
+                    <h3 class="text-2xl font-bold mb-2 text-white">VibeWear</h3>
+                    <p class="text-gray-400 mb-6">VibeWear is a modern, responsive e-commerce platform for trendy clothing across Men, Women, and Kids categories. Built with scalability, performance, and user experience in mind, this project demonstrates full-stack development practices tailored for the fashion retail industry.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">HTML5</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">CSS</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">JavaScript</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="flex items-center space-x-2 text-[#4c4cff] hover:text-white transition-colors duration-300">
+                            <span>In Progress</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-[#1a1b26] p-8 rounded-xl shadow-lg hover:neon-shadow-purple transition-shadow duration-300 transform hover:-translate-y-2">
+                    <h3 class="text-2xl font-bold mb-2 text-white">Acadomi</h3>
+                    <p class="text-gray-400 mb-6">Acadomi is a modern, mobile friendly platform for schools and colleges to manage academics and communication. Teachers can handle attendance, marks, and real-time chats, while students track attendance, get alerts below 75%, and monitor their progress, all in one place.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">HTML5</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">CSS</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">JS</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">Bootstrap</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">Node.js</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">Express.js</span>
+                        <span class="bg-[#2c2e42] text-[#e758e7] text-sm font-medium px-3 py-1 rounded-full">MongoDB</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="flex items-center space-x-2 text-[#4c4cff] hover:text-white transition-colors duration-300">
+                            <span>In Progress</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 border-b-4 border-[#e758e7] inline-block px-4">Contact</h2>
+            <div class="max-w-2xl mx-auto bg-[#1a1b26] p-8 md:p-12 rounded-xl neon-shadow-blue text-center">
+                <p class="text-gray-300 text-lg mb-6">
+                    Let's build, design and innovate together
+                </p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gurbanigudnu@gmail.com" class="inline-block px-8 py-4 text-lg font-bold text-white rounded-full bg-neon-border transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-purple" target="_blank">
+                    <span class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <span>gurbanigudnu@gmail.com</span>
+                    </span>
+                </a>
+                <div class="flex justify-center space-x-4 mt-4">
+            <a href="https://www.linkedin.com/in/gurbanigudnu" class="inline-block px-8 py-4 text-lg font-bold text-white rounded-full bg-neon-border transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-purple" target="_blank">
+                    <span class="flex items-center space-x-2">
+                        <span>Linkedin</span>
+                    </span>
+                </a>
+                <a href="https://github.com/GurbaniGudnu" class="inline-block px-8 py-4 text-lg font-bold text-white rounded-full bg-neon-border transition-transform duration-300 transform hover:scale-105 hover:neon-shadow-purple" target="_blank">
+                    <span class="flex items-center space-x-2">
+                        <span>Github</span>
+                    </span>
+                </a>
+        </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#1a1b26] py-6 text-center border-t border-gray-700">
+        <p class="text-gray-500 text-sm">
+            &copy; <span id="current-year"></span> Gurbani Gudnu. All rights reserved.
+        </p>
+        
+    </footer>
+
+    <script>
+        // Get the current year for the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Intersection Observer for active navigation links
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5,
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    const activeLink = document.querySelector(`a[href="#${entry.target.id}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('active');
+                    }
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
